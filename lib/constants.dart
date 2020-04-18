@@ -1,0 +1,19 @@
+//                << EVENTS >>
+const String EVENT_REGISTER_USER = 'register_user';
+const String EVENT_LOGIN_USER = 'login_user';
+const String EVENT_LOGOUT_USER = 'logout_user';
+const String EVENT_CREATE_ROOM = 'create_room';
+const String EVENT_JOIN_ROOM = 'join_room';
+const String EVENT_LEAVE_ROOM = 'leave_room';
+const String EVENT_READ_CREATED_ROOMS = 'read_created_rooms';
+const String EVENT_READ_JOINED_ROOMS = 'read_joined_rooms';
+const String EVENT_SEND_GENERAL_ROOM_CHAT = 'send_general_room_chat';
+const String EVENT_READ_GENERAL_ROOM_CHAT = 'read_general_room_chat';
+const String EVENT_SEND_ROOM_CHAT = 'send_room_chat';
+const String EVENT_READ_ROOM_CHAT = 'read_room_chat';
+const String EVENT_SEND_PRIVATE_CHAT = 'send_private_chat';
+const String EVENT_READ_PRIVATE_CHAT = 'read_private_chat';
+const String EVENT_READ_USERS = 'read_users';
+const String EVENT_READ_USERS_BY_ROOM = 'read_users_by_room';
+const String EVENT_IS_TYPING = 'is_typing';
+const String EVENT_DISCONNECT = 'disconnect';
